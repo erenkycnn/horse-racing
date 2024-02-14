@@ -31,9 +31,7 @@ export default {
         @click="() => store.commit('generateSchedule')"
         :disabled="state.isRaceStarted"
       >
-        {{
-          state.schedules.length ? "Regenerate Schedule" : "Generate Schedule"
-        }}
+        {{ state.schedules.length ? "Regenerate Program" : "Generate Program" }}
       </button>
       <button
         class="btn btn-secondary"

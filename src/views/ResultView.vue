@@ -38,7 +38,7 @@ export default {
         :listKeys="listKeys"
       />
       <ListComp
-        :listTitle="'Race ' + i"
+        :listTitle="'Round ' + i"
         :listItems="state.results[i - 1]"
         :listHeaders="listHeaders"
         :listKeys="listKeys"
